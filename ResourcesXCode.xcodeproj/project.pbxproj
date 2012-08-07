@@ -18,6 +18,11 @@
 		9B1E822815D1017F00F65038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1E820F15D1017F00F65038 /* Foundation.framework */; };
 		9B1E823015D1017F00F65038 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B1E822E15D1017F00F65038 /* InfoPlist.strings */; };
 		9B1E823315D1017F00F65038 /* ResourcesXCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E823215D1017F00F65038 /* ResourcesXCodeTests.m */; };
+		9B1E824315D1020E00F65038 /* img_button_score_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1E823D15D1020E00F65038 /* img_button_score_camera.png */; };
+		9B1E824415D1020E00F65038 /* img_button_score_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1E823E15D1020E00F65038 /* img_button_score_camera@2x.png */; };
+		9B1E824515D1020E00F65038 /* img_button_score_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1E823F15D1020E00F65038 /* img_button_score_pause.png */; };
+		9B1E824615D1020E00F65038 /* img_button_score_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1E824015D1020E00F65038 /* img_button_score_pause@2x.png */; };
+		9B1E824715D1020E00F65038 /* img_hud_buttons_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1E824215D1020E00F65038 /* img_hud_buttons_background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +40,23 @@
 		9B1E820D15D1017F00F65038 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B1E820F15D1017F00F65038 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9B1E821115D1017F00F65038 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9B1E821515D1017F00F65038 /* ResourcesXCode-Info.plist */ = {isa = PBXFileReference; path = "ResourcesXCode-Info.plist"; sourceTree = "<group>"; };
+		9B1E821515D1017F00F65038 /* ResourcesXCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResourcesXCode-Info.plist"; sourceTree = "<group>"; };
 		9B1E821715D1017F00F65038 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B1E821915D1017F00F65038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9B1E821B15D1017F00F65038 /* ResourcesXCode-Prefix.pch */ = {isa = PBXFileReference; path = "ResourcesXCode-Prefix.pch"; sourceTree = "<group>"; };
-		9B1E821C15D1017F00F65038 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B1E821B15D1017F00F65038 /* ResourcesXCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ResourcesXCode-Prefix.pch"; sourceTree = "<group>"; };
+		9B1E821C15D1017F00F65038 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B1E821D15D1017F00F65038 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9B1E822415D1017F00F65038 /* ResourcesXCodeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResourcesXCodeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1E822515D1017F00F65038 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9B1E822D15D1017F00F65038 /* ResourcesXCodeTests-Info.plist */ = {isa = PBXFileReference; path = "ResourcesXCodeTests-Info.plist"; sourceTree = "<group>"; };
+		9B1E822D15D1017F00F65038 /* ResourcesXCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResourcesXCodeTests-Info.plist"; sourceTree = "<group>"; };
 		9B1E822F15D1017F00F65038 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9B1E823115D1017F00F65038 /* ResourcesXCodeTests.h */ = {isa = PBXFileReference; path = ResourcesXCodeTests.h; sourceTree = "<group>"; };
+		9B1E823115D1017F00F65038 /* ResourcesXCodeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResourcesXCodeTests.h; sourceTree = "<group>"; };
 		9B1E823215D1017F00F65038 /* ResourcesXCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResourcesXCodeTests.m; sourceTree = "<group>"; };
+		9B1E823D15D1020E00F65038 /* img_button_score_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_button_score_camera.png; sourceTree = "<group>"; };
+		9B1E823E15D1020E00F65038 /* img_button_score_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_button_score_camera@2x.png"; sourceTree = "<group>"; };
+		9B1E823F15D1020E00F65038 /* img_button_score_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_button_score_pause.png; sourceTree = "<group>"; };
+		9B1E824015D1020E00F65038 /* img_button_score_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_button_score_pause@2x.png"; sourceTree = "<group>"; };
+		9B1E824215D1020E00F65038 /* img_hud_buttons_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_hud_buttons_background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,7 @@
 		9B1E81FE15D1017F00F65038 = {
 			isa = PBXGroup;
 			children = (
+				9B1E823C15D1020E00F65038 /* Resources */,
 				9B1E821315D1017F00F65038 /* ResourcesXCode */,
 				9B1E822B15D1017F00F65038 /* ResourcesXCodeTests */,
 				9B1E820C15D1017F00F65038 /* Frameworks */,
@@ -141,6 +152,26 @@
 				9B1E822E15D1017F00F65038 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B1E823C15D1020E00F65038 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B1E823D15D1020E00F65038 /* img_button_score_camera.png */,
+				9B1E823E15D1020E00F65038 /* img_button_score_camera@2x.png */,
+				9B1E823F15D1020E00F65038 /* img_button_score_pause.png */,
+				9B1E824015D1020E00F65038 /* img_button_score_pause@2x.png */,
+				9B1E824115D1020E00F65038 /* Level2 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9B1E824115D1020E00F65038 /* Level2 */ = {
+			isa = PBXGroup;
+			children = (
+				9B1E824215D1020E00F65038 /* img_hud_buttons_background.png */,
+			);
+			path = Level2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +246,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B1E821815D1017F00F65038 /* InfoPlist.strings in Resources */,
+				9B1E824315D1020E00F65038 /* img_button_score_camera.png in Resources */,
+				9B1E824415D1020E00F65038 /* img_button_score_camera@2x.png in Resources */,
+				9B1E824515D1020E00F65038 /* img_button_score_pause.png in Resources */,
+				9B1E824615D1020E00F65038 /* img_button_score_pause@2x.png in Resources */,
+				9B1E824715D1020E00F65038 /* img_hud_buttons_background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
